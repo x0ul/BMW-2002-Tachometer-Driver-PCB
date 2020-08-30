@@ -11,14 +11,15 @@ I started my design by removing the stock driver board and using a bench DC powe
 
 ```
 f (Hz)	RPM 	v_in
-33.33	  1000	0.25
-66.67	  2000	0.46
+33.33	1000	0.25
+66.67	2000	0.46
 100.01	3000	0.64
 133.35	4000	0.83
 166.69	5000	1.01
 200.03	6000	1.25
 233.37	7000	1.47
 266.71	8000	1.73
+
 ```
 
 The best-fit line through the above data relating f to v_in has a slope of 6.34e-3 V/Hz.
