@@ -29,3 +29,9 @@ The LM2907 application note explains how to choose good values for the external 
 Following the LM2907 app note's guidance, I settled on a 22nF C_1, which has an ideal r_1 of around 29k. I chose to use a 20k r_1 in series with a 20k trimpot for wide adjustability. The reality is that I only have my tachometer as a reference and I don't know how representative it may be, so I might as well make it really adjustable.
 
 Later, I threw in a 6 cyl/4 cyl selector switch to put a suitable resistance in parallel with r_1 for cars with more cylinders than stock. In hindsight, it's probably unnecessary and could have been replaced by replacing r_1 entirely with a trimpot of the appropriate value.
+
+Finally, based on practical testing an earlier revision of the design, I added input bandpass filtering and attenuation to reduce the impact of electrical noise on the final output.
+
+I used an in-browser tool called EasyEDA to capture schematics, simulate the input filtering, and lay out the PCB. It's extremely limited, but was needs suiting for this simple board. Unfortunately, it has bugs that resulted in garbage wayyyy off the board in the gerbers, but OSH Park support manually cleaned them up for me. I tried out several different PCB fabs: OSH Park, JLCPCB, and Aisler. OSH Park made the best PCBs, closely followed by Aisler. JLCPCBs were much cheaper (made in PRC), but the top silk screen layer was missing many labels and the boards took a long time to arrive.
+
+Here is a link to the public project on EasyEDA: https://easyeda.com/ahR9co1o/okok
