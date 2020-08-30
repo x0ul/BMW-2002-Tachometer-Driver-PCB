@@ -36,6 +36,8 @@ Later, I threw in a 6 cyl/4 cyl selector switch to put a suitable resistance in 
 
 Finally, based on practical testing an earlier revision of the design, I added input bandpass filtering and attenuation to reduce the impact of electrical noise on the final output.
 
+The board is 2-layer with a top layer ground pour and a bottom layer vcc pour. Nearly all of the routing is on the top layer.
+
 I used an in-browser tool called EasyEDA to capture schematics, simulate the input filtering, and lay out the PCB. It's extremely limited, but was needs suiting for this simple board. Unfortunately, it has bugs that resulted in garbage wayyyy off the board in the gerbers, but OSH Park support manually cleaned them up for me. I tried out several different PCB fabs: OSH Park, JLCPCB, and Aisler. OSH Park made the best PCBs, closely followed by Aisler. JLCPCBs were much cheaper (made in PRC), but the top silk screen layer was missing many labels and the boards took a long time to arrive.
 
 Here is a link to the public project on EasyEDA: https://easyeda.com/ahR9co1o/okok
