@@ -4,6 +4,10 @@ This project is a circuit board that modifies the stock BMW 2002 (aka E10) tacho
 
 The stock tachometer is driven by large voltage pulses from the primary windings of the car's single igniton coil. Aftermarket electronic ignition and EFI conversions typically output a 12V square wave/pulse RPM signal that doesn't reliably drive the stock tachometer.
 
+![picture of the front of the board](front.svg)
+
+![picture of the back of the board](back.svg)
+
 # Design
 The stock tachometer driver board uses a chip that has no datasheet available, SN29707, and was probably custom made for VDO. So rather than reverse engineer this custom chip, I just designed a new board around the ubiquitous LM2907 frequency to voltage converter. It's likely that the original tachometer driver IC is pretty similar anyway, looking at the part numbers.
 
