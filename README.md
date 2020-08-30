@@ -1,6 +1,6 @@
 # BMW 2002 Tachometer Driver PCB
 
-This project is a circuit board that modifies the stock BMW 2002 (aka E10) tachometer to use a pulsed 12V input as emitted from various ECUs. The circuit board replaces the circuit board inside the stock VDO tachometer for a clean installation.
+This project is a circuit board that modifies the stock BMW 2002 (aka E10) tachometer to use a pulsed 12V input as emitted from various ECUs. The circuit board replaces the circuit board inside the stock VDO tachometer for a clean installation. This project was developed for square tail light cars, I'm not sure if it works with the roundie tach.
 
 The stock tachometer is driven by large voltage pulses from the primary windings of the car's single igniton coil. Aftermarket electronic ignition and EFI conversions typically output a 12V square wave/pulse RPM signal that doesn't reliably drive the stock tachometer.
 
